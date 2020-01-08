@@ -4,7 +4,7 @@ import Recipe from "./Recipe/Recipe";
 import "./App.css";
 
 const App = () => {
-  
+
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
@@ -20,6 +20,7 @@ const App = () => {
     );
     const data = await response.json();
     setRecipes(data.hits);
+    console.log(data.hits)
   };
 
   const updateSearch = e => {
