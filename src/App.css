@@ -28,3 +28,13 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.search-warning{
+  display: flex;
+  justify-content: center;
+}
+
+.mid-info {
+  display: flex;
+  justify-content: center;
+}
